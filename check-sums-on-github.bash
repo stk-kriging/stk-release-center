@@ -1,23 +1,25 @@
 #!/bin/bash -ex
 
+I_WAS_HERE=`pwd`
+
 WGET="wget https://github.com/stk-kriging/stk/releases/download/"
 VER=${1}
 
 BASE=$(dirname $(readlink -f $0))
-HERE=${BASE}/${VER}
+RELEASE_DIR=${BASE}/${VER}
 
-DST=${HERE}/download/github
-mkdir -p ${DST}
+DOWNLOAD_DIR=${RELEASE_DIR}/download/github
+mkdir -p ${DOWNLOAD_DIR}
+cd ${DOWNLOAD_DIR}
 
 FN=stk-${VER}-allpurpose.tar.gz
 ${WGET}${VER}/${FN}
-mv ${FN} ${DST}
 
 FN=stk-${VER}-octpkg.tar.gz
 ${WGET}${VER}/${FN}
-mv ${FN} ${DST}
 
 # Check sums
-cd ${DST}
-md5sum -c ${HERE}/md5-sums
-sha256sum -c ${HERE}/sha256-sums
+md5sum -c ${RELEASE_DIR}/md5-sums
+sha256sum -c ${RELEASE_DIR}/sha256-sums
+
+cd ${I_WAS_HERE}
