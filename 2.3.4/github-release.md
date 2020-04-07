@@ -21,7 +21,7 @@ c62eee1e4bcdf9865bc371304ea6adaea816657926ae99c8a8ae5c45787c86d6  stk-2.3.4-octp
 
 ### Getting started
 
-Read the "[Quick start](https://github.com/stk-kriging/stk/blob/2.3.4/README.md#quick-start)" section in [README.md](https://github.com/stk-kriging/stk/blob/2.3.4/README.md).
+Read the "[Quick start](https://github.com/stk-kriging/stk/blob/2.3.4/README#L65)" section in [README.md](https://github.com/stk-kriging/stk/blob/2.3.4/README).
 
 ### What's new?
 

@@ -21,7 +21,7 @@ Checksums (SHA-256):
 
 ### Getting started
 
-Read the "[Quick start](https://github.com/stk-kriging/stk/blob/2.3.0/README.md#quick-start)" section in [README.md](https://github.com/stk-kriging/stk/blob/2.3.0/README.md).
+Read the "[Quick start](https://github.com/stk-kriging/stk/blob/2.3.0/README#L65)" section in [README.md](https://github.com/stk-kriging/stk/blob/2.3.0/README).
 
 ### What's new?
 
