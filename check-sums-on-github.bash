@@ -18,8 +18,4 @@ ${WGET}${VER}/${FN}
 FN=stk-${VER}-octpkg.tar.gz
 ${WGET}${VER}/${FN}
 
-# Check sums
-md5sum -c ${RELEASE_DIR}/md5-sums
-sha256sum -c ${RELEASE_DIR}/sha256-sums
-
 cd ${I_WAS_HERE}
