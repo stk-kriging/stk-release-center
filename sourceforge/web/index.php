@@ -1,4 +1,4 @@
 <?php
-header("Location: https://sourceforge.net/projects/kriging");
+header("Location: https://github.com/stk-kriging/stk/#readme");
 exit;
 ?>
