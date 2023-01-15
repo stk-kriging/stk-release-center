@@ -2,7 +2,7 @@
 
 ## One toolbox, two flavours
 
-The latest release of STK is 2.7.0 and it comes in two flavours:
+The latest release of STK is 2.8.0 and it comes in two flavours:
 
  * an "all purpose" release, which is suitable for use both with
    [GNU Octave](http://www.gnu.org/software/octave/)
@@ -12,7 +12,7 @@ The latest release of STK is 2.7.0 and it comes in two flavours:
  
 ## Quick start with the "all purpose" release
 
-Download and unpack `stk-2.7.0-allpurpose.tar.gz` from this page, and then
+Download and unpack `stk-2.8.0-allpurpose.tar.gz` from this page, and then
 run `stk_init.m` in Octave or Matlab.
 
 After that, you should be able to run the examples located in the 'examples'
@@ -29,8 +29,8 @@ Assuming that you have a working Internet connection, typing `pkg install -forge
 [file release system](https://sourceforge.net/projects/octave/files/)
 and install it for you.
 
-Alternatively, if `stk-2.7.0-octpkg.tar.gz` (obtained from this page) is in the
-current directory, you can simply type: `pkg install stk-2.7.0-octpkg.tar.gz`.
+Alternatively, if `stk-2.8.0-octpkg.tar.gz` (obtained from this page) is in the
+current directory, you can simply type: `pkg install stk-2.8.0-octpkg.tar.gz`.
 
 After that, you can load STK using `pkg load stk`.
 

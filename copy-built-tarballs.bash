@@ -4,11 +4,10 @@
 VER=${1}
 BUILD_DIR=${2}
 
-## Create directories
+## Create directoriy
 BASE=$(dirname $(readlink -f $0))
-RELEASE_DIR=${BASE}/${VER}
-mkdir -p ${RELEASE_DIR}/github
-mkdir -p ${RELEASE_DIR}/octaveforge
+RELEASE_DIR=${BASE}/release/${VER}/
+mkdir -p ${RELEASE_DIR}
 
-cp ${BUILD_DIR}/github/*.tar.gz ${RELEASE_DIR}/github/
-cp ${BUILD_DIR}/octaveforge/*.tar.gz ${RELEASE_DIR}/octaveforge/
+## Copy tarballs
+cp ${BUILD_DIR}/stk-${VER}-*.tar.gz ${RELEASE_DIR}

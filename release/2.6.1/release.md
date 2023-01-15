@@ -21,12 +21,12 @@ Checksums (SHA-256):
 
 ### Getting started
 
-Read the "[Quick start](https://github.com/stk-kriging/stk/blob/2.6.1/README.md#quick-start)" section in [README.md](https://github.com/stk-kriging/stk/blob/2.6.1/README.md).
+Read the "[Quick start](https://stk-kriging.github.io/release/2.6.1#quick-start)" section in [README.md](https://stk-kriging.github.io/release/2.6.1).
 
 ### What's new?
 
-A summary of important user-visible changes is also available: [here](http://kriging.sourceforge.net/htmldoc/NEWS.html).
+A summary of important user-visible changes is also available: [here](https://stk-kriging.github.io/release/2.6.1/NEWS).
 
 ### Function reference
 
-See <http://kriging.sourceforge.net/htmldoc/> for an online version of the documentation.
+See <https://stk-kriging.github.io/release/2.6.1/doc/html> for an online version of the documentation.

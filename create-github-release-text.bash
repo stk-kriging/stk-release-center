@@ -6,7 +6,7 @@ VER=${1}
 
 ## Release directory
 BASE=$(dirname $(readlink -f $0))
-RELEASE_DIR=${BASE}/${VER}/github
+RELEASE_DIR=${BASE}/release/${VER}
 
 ## MD5 sums
 MD5SUMS=${RELEASE_DIR}/md5-sums

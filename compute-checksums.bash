@@ -7,17 +7,11 @@ VER=${1}
 
 ## Go to release directory
 BASE=$(dirname $(readlink -f $0))
-RELEASE_DIR=${BASE}/${VER}
+RELEASE_DIR=${BASE}/release/${VER}
 
 ## Compute check sums for the github release
-cd ${RELEASE_DIR}/github
-md5sum *.tar.gz > ${RELEASE_DIR}/github/md5-sums
-sha256sum *.tar.gz > ${RELEASE_DIR}/github/sha256-sums
-
-## Compute check sums for the OctaveForge release
-cd ${RELEASE_DIR}/octaveforge
-md5sum *.tar.gz > ${RELEASE_DIR}/octaveforge/md5-sums
-sha256sum *.tar.gz > ${RELEASE_DIR}/octaveforge/sha256-sums
+cd ${RELEASE_DIR}
+md5sum *.tar.gz > ${RELEASE_DIR}/md5-sums
+sha256sum *.tar.gz > ${RELEASE_DIR}/sha256-sums
 
 cd ${I_WAS_HERE}
-
