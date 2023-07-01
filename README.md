@@ -14,6 +14,13 @@ Let's also assume that the `stk` and `stk-release-center` repositories
 have both been cloned into the same directory, say, `~/repo/github/stk-kriging`.
 
 
+### Check that everything is ready
+
+Check that the version number is correct in `stk_version.m`.
+
+Check that `NEWS.md` is up-to-date and good looking.
+
+
 ### Create release tag
 
 Create the release tag on the maintenance branch of the STK repository:
