@@ -2,9 +2,14 @@
 
 Release tools for STK maintainers.
 
+
 ## Release process
 
 Let's assume that we want to release STK 2.8.0.
+
+Let's also assume that the `stk` and `stk-release-center` repositories
+have both been cloned into the same directory, say, `~/repo/github/stk-kriging`.
+
 
 ### Create release tag
 
